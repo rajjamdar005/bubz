@@ -1,0 +1,109 @@
+/* journey.module.css */
+
+.journeyContainer {
+  background-color: #e0f7fa; /* Light pastel blue background */
+  padding: 2rem;
+  min-height: 100vh; /* Full height for the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #006064; /* Dark blue text color */
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif; /* Custom font */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 2rem; /* Increased space between cards */
+  width: 100%;
+  max-width: 1200px; /* Increased max width for larger screens */
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 1.5rem; /* More rounded corners */
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Increased upward movement on hover */
+}
+
+.cardImage {
+  width: 100%;
+  height: 250px; /* Increased height for the image */
+  object-fit: cover; /* Cover the entire area */
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.cardBody {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center align text */
+}
+
+.cardTitle {
+  font-size: 1.75rem; /* Increased font size for card titles */
+  font-weight: 600;
+  color: #004d40; /* Darker blue-green for card titles */
+  margin-bottom: 0.75rem; /* Increased space below the title */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+.cardActions {
+  margin-top: 1.5rem; /* Increased space above the card actions */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align the actions */
+}
+
+.cardActions a {
+  background-color: #81d4fa; /* Step background color */
+  color: #004d40; /* Step text color */
+  padding: 0.75rem 1.5rem; /* Increased padding for the button */
+  border-radius: 1rem; /* More rounded corners for the button */
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; /* Custom font */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.cardActions a:hover {
+  background-color: #4fc3f7; /* Darker hover color for the button */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .journeyContainer {
+    padding: 1rem; /* Reduced padding on smaller screens */
+  }
+
+  .title {
+    font-size: 2rem; /* Reduced font size for the title on smaller screens */
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+  }
+
+  .cardImage {
+    height: 200px; /* Reduced height for the image on smaller screens */
+  }
+
+  .cardBody {
+    padding: 1rem; /* Reduced padding for the card body on smaller screens */
+  }
+
+  .cardTitle {
+    font-size: 1.5rem; /* Reduced font size for the card title on smaller screens */
+  }
+}

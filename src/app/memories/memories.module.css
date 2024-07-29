@@ -1,0 +1,56 @@
+/* src/app/memories/memories.module.css */
+.memoriesContainer {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pageTitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #ff65a3; /* Title color */
+  }
+  
+  .memoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 1.5rem; /* Space between items */
+  }
+  
+  .memoryItem {
+    background-color: #f9f9f9; /* Light background for memory items */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent overflow */
+    transition: transform 0.3s; /* Smooth scaling on hover */
+  }
+  
+  .memoryItem:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .memoryImage {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .memoryTitle {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .memoryDescription {
+    font-size: 1rem;
+    color: #666; /* Lighter text color for description */
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .pageTitle {
+      font-size: 2rem; /* Smaller title on mobile */
+    }
+  
+    .memoriesGrid {
+      grid-template-columns: 1fr; /* Stack items in a single column on mobile */
+    }
+  }
+  

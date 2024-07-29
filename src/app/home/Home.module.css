@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #ffedf0, #fff0f5); /* Gradient background */
+  background-image: linear-gradient(to bottom, #FBF9F1, #E5E1DA); /* Gradient background */
   font-family: 'Parisienne', cursive; /* Use a handwritten-style font */
 }
 
@@ -26,7 +26,7 @@
 .title {
   font-size: 4rem;
   font-weight: bold;
-  background: linear-gradient(to right, #ff7eb3, #ff65a3, #ff7eb3); /* Gradient effect */
+  background: linear-gradient(to right, #92C7CF, #AAD7D9, #92C7CF); /* Gradient effect */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -49,17 +49,17 @@
 .button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #ff7eb3; /* Button background color */
+  background-color: #92C7CF; /* Button background color */
   color: white;
   text-decoration: none;
   border-radius: 2rem; /* Rounded corners */
   transition: background-color 0.3s, transform 0.3s; /* Transition for background and transform */
-  box-shadow: 0 8px 20px rgba(255, 126, 179, 0.4); /* Larger shadow for depth */
+  box-shadow: 0 8px 20px rgba(146, 199, 207, 0.4); /* Larger shadow for depth */
   font-size: 1.2rem;
 }
 
 .button:hover {
-  background-color: #ff65a3; /* Darker shade on hover */
+  background-color: #AAD7D9; /* Darker shade on hover */
   transform: translateY(-4px); /* Lift effect on hover */
 }
 
@@ -69,7 +69,7 @@
 
 /* Memory Highlights Section */
 .memoryHighlights {
-  background-color: #fff; /* White background for memory highlights */
+  background-color: #FBF9F1; /* White background for memory highlights */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -90,7 +90,7 @@
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background: linear-gradient(145deg, #ff7eb3, #ff65a3);
+  background: linear-gradient(145deg, #92C7CF, #AAD7D9);
   border-radius: 1.25rem; /* Slightly larger than the section */
   z-index: -1; /* Behind the content */
 }
@@ -99,12 +99,12 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
+  color: #AAD7D9; /* Title color */
 }
 
 /* Birthday Wishes Section */
 .birthdayWishes {
-  background-color: #fff; /* White background for birthday wishes */
+  background-color: #FBF9F1; /* White background for birthday wishes */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -125,7 +125,7 @@
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background: linear-gradient(145deg, #ff7eb3, #ff65a3);
+  background: linear-gradient(145deg, #92C7CF, #AAD7D9);
   border-radius: 1.25rem; /* Slightly larger than the section */
   z-index: -1; /* Behind the content */
 }
@@ -134,12 +134,12 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
+  color: #AAD7D9; /* Title color */
 }
 
 /* Interactive Cake Section */
 .interactiveCake {
-  background-color: #fff; /* White background for interactive cake */
+  background-color: #FBF9F1; /* White background for interactive cake */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -160,7 +160,7 @@
   left: -10px;
   right: -10px;
   bottom: -10px;
-  background: linear-gradient(145deg, #ff7eb3, #ff65a3);
+  background: linear-gradient(145deg, #92C7CF, #AAD7D9);
   border-radius: 1.25rem; /* Slightly larger than the section */
   z-index: -1; /* Behind the content */
 }
@@ -169,13 +169,13 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
+  color: #AAD7D9; /* Title color */
 }
 
 .footerContainer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #ff7eb3; /* Footer background color */
+  background-color: #92C7CF; /* Footer background color */
   color: white;
   position: relative;
   bottom: 0;
@@ -232,7 +232,7 @@
 }
 
 .memoryHighlights {
-  background-color: #fff; /* White background for memory highlights */
+  background-color: #FBF9F1; /* White background for memory highlights */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
@@ -245,7 +245,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
+  color: #AAD7D9; /* Title color */
 }
 
 .memoryGrid {
@@ -261,182 +261,36 @@
 }
 
 .memoryHighlights {
-  background-color: #fff; /* White background for memory highlights */
+  background-color: #FBF9F1; /* White background for memory highlights */
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
   margin: 2rem 0;
   width: 80%; /* Responsive width */
   position: relative; /* Positioning for decorative elements */
-}
-
-.sectionTitle {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
-}
-
-.memoryGrid {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column for mobile view */
-  gap: 1rem; /* Space between items */
-}
-
-@media (min-width: 768px) {
-  .memoryGrid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid for larger screens */
-  }
-}
-.memoryHighlights {
-  background-color: #fff; /* White background for memory highlights */
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-  margin: 2rem 0;
-  width: 80%; /* Responsive width */
-  position: relative; /* Positioning for decorative elements */
-}
-
-.sectionTitle {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
-}
-
-.memoryGrid {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column for mobile view */
-  gap: 1rem; /* Space between items */
-}
-
-@media (min-width: 768px) {
-  .memoryGrid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid for larger screens */
-  }
 }
 
 .memoryItem {
-  position: relative;
-  overflow: hidden;
+  background-color: #FBF9F1; /* White background for memory items */
   border-radius: 0.5rem;
-  cursor: pointer;
-  transition: transform 0.3s ease; /* Smooth scaling on hover */
-  width: 100%;
-  height: auto;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+  transition: transform 0.3s; /* Smooth transition for scaling */
+  position: relative; /* Positioning for decorative elements */
 }
 
 .memoryItem:hover {
-  transform: scale(1.05); /* Slightly enlarge on hover */
+  transform: scale(1.05); /* Slightly enlarge item on hover */
 }
 
-.memoryImage {
-  width: 100%;
-  height: auto; /* Ensure the image maintains its aspect ratio */
-  max-height: 400px; /* Limit the maximum height for uniformity */
-  object-fit: cover; /* Cover to maintain aspect ratio */
-  transition: transform 0.3s; /* Smooth transition for scaling */
-}
-
-.memoryOverlay {
+.memoryItem::before {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 126, 179, 0.8); /* Semi-transparent overlay */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0; /* Start hidden */
-  transition: opacity 0.3s ease; /* Smooth transition for overlay */
-}
-
-.memoryItem:hover .memoryOverlay {
-  opacity: 1; /* Show overlay on hover */
-}
-
-.memoryOverlay h3 {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.memoryOverlay p {
-  color: white;
-  font-size: 1rem;
-  text-align: center; /* Center text for better readability */
-}
-
-/* app/home/home.module.css */
-.birthdayWishes {
-  background-color: #fff; /* White background for birthday wishes */
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-  margin: 2rem 0;
-  position: relative; /* Positioning for decorative elements */
-  color: #0000;
-}
-
-.birthdayWishes h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #ff65a3; /* Title color */
-}
-
-.wishesContainer {
-  display: flex;
-  flex-wrap: wrap; /* Allow wrapping of cards */
-  justify-content: center; /* Center the cards */
-  gap: 1rem; /* Space between cards */
-  position: relative; /* Positioning for overlapping effect */
-}
-
-.wishCard {
-  background-color: #f9f9f9; /* Light background for wish items */
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: transform 0.3s ease; /* Smooth scaling on hover */
-  width: 250px; /* Fixed width for cards */
-  position: relative; /* Allow for overlapping effect */
-  z-index: 1; /* Ensure cards are above the background */
-}
-
-.wishCard:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-}
-
-.wishMessage {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.wishAuthor {
-  font-size: 1rem;
-  color: #666; /* Lighter text color for author */
-}
-
-/* Media Queries for Mobile Responsiveness */
-@media (max-width: 768px) {
-  .birthdayWishes {
-    padding: 1rem; /* Reduce padding on mobile */
-  }
-
-  .birthdayWishes h2 {
-    font-size: 2rem; /* Smaller title on mobile */
-  }
-
-  .wishesContainer {
-    flex-direction: column; /* Stack cards vertically on mobile */
-    align-items: center; /* Center cards */
-  }
-
-  .wishCard {
-    width: 90%; /* Full width on mobile */
-  }
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: linear-gradient(145deg, #92C7CF, #AAD7D9);
+  border-radius: 0.75rem; /* Slightly larger than the item */
+  z-index: -1; /* Behind the content */
 }
