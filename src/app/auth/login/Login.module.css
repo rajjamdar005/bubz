@@ -1,0 +1,62 @@
+/* app/auth/login/Login.module.css */
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif; /* Clean sans-serif font */
+}
+
+.background {
+  background-image: url('/images/bc4.jpg'); /* Path to your login background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 2rem;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #343a40; /* Dark gray */
+  margin-bottom: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #343a40;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #66cae5; /* Gold color */
+  color: #343a40; /* Dark gray for text */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #00b7e0; /* Darker gold on hover */
+}
