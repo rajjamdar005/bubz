@@ -4,7 +4,15 @@
 /* In your globals.css or a similar global stylesheet */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+:root {
+  --primary-color: #aec6cf; /* pastel blue */
+  --secondary-color: #ffb6c1; /* light pink */
+  --text-color: #333333; /* dark gray */
+  --font-family: 'Poppins', sans-serif;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;

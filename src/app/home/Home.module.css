@@ -111,7 +111,8 @@
   margin: 2rem 0;
   width: 80%; /* Responsive width */
   transition: transform 0.3s; /* Smooth transition for scaling */
-  position: relative; /* Positioning for decorative elements */
+  position: relative;
+  color: #666; /* Positioning for decorative elements */
 }
 
 .birthdayWishes:hover {

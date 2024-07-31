@@ -13,31 +13,45 @@ const journeyPhases: JourneyPhase[] = [
   {
     title: 'The Beginning',
     description: 'Our journey started with a spark of excitement and curiosity.',
-    imageUrl: 'https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp',
+    imageUrl: "/images/beg.jpeg",
     actionText: 'Read More',
     actionLink: '/journey/phase-1'
   },
   {
     title: 'The walk',
-    description: 'We explored new places and experienced thrilling adventures together.',
-    imageUrl: 'https://img.daisyui.com/images/stock/photo-1507525428034-b723cf961d3e.webp',
-    actionText: 'Explore',
+    description: 'Steps taken, memories made.',
+    imageUrl: '/images/walk.jpeg',
+    actionText: 'Read More',
     actionLink: '/journey/phase-2'
   },
  
   {
-    title: 'treks',
-    description: 'We achieved significant milestones and celebrated our successes.',
-    imageUrl: 'https://img.daisyui.com/images/stock/photo-1522125670776-3c7abb882bc2.webp',
-    actionText: 'Celebrate',
+    title: 'strangers',
+    description: 'The ache of absence, a constant reminder of what once was.',
+    imageUrl: "/images/stranger.jpeg",
+    actionText: 'Read More',
     actionLink: '/journey/phase-3'
   },
 
   {
+    title: 'treks',
+    description: 'Hiking highs and heartfelt vibes.',
+    imageUrl: "/images/trek.jpg",
+    actionText: 'Read More',
+    actionLink: '/journey/phase-3'
+  },
+  {
     title: 'tea-toast',
-    description: 'We achieved significant milestones and celebrated our successes.',
-    imageUrl: 'https://img.daisyui.com/images/stock/photo-1522125670776-3c7abb882bc2.webp',
-    actionText: 'Celebrate',
+    description: 'Where laughter was the main course, and friendship was the dessert. Every sip a memory, every bite a story.',
+    imageUrl: "/images/tea.jpeg",
+    actionText: 'Read More',
+    actionLink: '/journey/phase-3'
+  },
+  {
+    title: 'us ',
+    description: 'In the tapestry of life, our threads are intricately woven.n',
+    imageUrl:  "/images/us.jpeg",
+    actionText: "Read More",
     actionLink: '/journey/phase-3'
   }
 ];
