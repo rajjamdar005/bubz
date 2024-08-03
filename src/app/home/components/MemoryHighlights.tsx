@@ -1,5 +1,5 @@
 // app/home/components/MemoryHighlights.tsx
-import styles from '../home.module.css';
+import styles from '../Home.module.css';
 
 const memories = [
   {
