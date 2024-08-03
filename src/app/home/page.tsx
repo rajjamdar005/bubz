@@ -1,5 +1,5 @@
 // app/home/page.tsx
-import styles from './home.module.css';
+import styles from './Home.module.css';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 // import Header from '../components/header';
