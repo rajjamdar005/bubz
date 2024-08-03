@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styles from './memories.module.css';
+import Image from 'next/image';
 
 const Page = () => {
   const images = [
