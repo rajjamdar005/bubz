@@ -6,7 +6,7 @@ import styles from './phase6.module.css';
 const Page = () => {
   const images = [
     '/images/us1.jpg',
-    '/images/walk1.jpg',
+    '/images/walk1.JPG',
     '/images/us3.jpg',
     '/images/walk3.jpg',
     '/images/us6.jpg',
