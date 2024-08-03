@@ -24,7 +24,7 @@ export default function LoginPage() {
     <div className={styles.container}>
       <div className={styles.background}>
         <div className={styles.loginBox}>
-          <h1 className={styles.title}>🎉 Happy Birthday! 🎉</h1>
+        <h1 className={styles.title}>🎉 Happy Birthday!🎉</h1>
           <form onSubmit={handleLogin}>
             <input
               type="email"

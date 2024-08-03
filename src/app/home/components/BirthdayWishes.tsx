@@ -4,18 +4,19 @@ import styles from '../home.module.css';
 const birthdayWishes = [
   {
     id: 1,
-    message: "Happy birthday! Wishing you an amazing day.",
-    author: "John Doe",
+    message: "Happy birthday, to my one and only daughter. Our Blessings are with you always.",
+
+    author: "dad",
   },
   {
     id: 2,
-    message: "Cheers to another year around the sun! Have a blast.",
-    author: "Jane Smith",
+    message: "Happiest Birthday to one of the bear of the trio !🧸",
+    author: "rommies",
   },
   {
     id: 3,
-    message: "Wishing you all the best on your special day. Enjoy!",
-    author: "Bob Johnson",
+    message: "Cheers to the another fabulous year of life!!!",
+    author: "shwaty🐣",
   },
   // Add more birthday wishes as needed
 ];

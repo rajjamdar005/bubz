@@ -1,23 +1,19 @@
 // app/home/page.tsx
 import styles from './home.module.css';
-
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-
-//import Header from '../components/header';
-//import Footer from '../components/footer';
+// import Header from '../components/header';
+// import Footer from '../components/footer';
 import MemoryHighlights from './components/MemoryHighlights';
 import BirthdayWishes from './components/BirthdayWishes';
-import InteractiveCake from '../components/InteractiveCake';
+import Link from 'next/link'; // Import Link from next/link
 
 export default function HomePage() {
   return (
     <div className={styles.container}>
-      
-
       <main className={styles.main}>
         <section className={styles.welcomeMessage}>
-          <h1 className={styles.title}>Happy Birthday, duchki !</h1>
+          <h1 className={styles.title}>Happy Birthday, duchki!</h1>
           <p className={styles.message}>
             Welcome to your special day! Today is all about celebrating YOU and the wonderful memories we've created together.
           </p>
@@ -26,20 +22,16 @@ export default function HomePage() {
         <MemoryHighlights />
 
         <section className={styles.quickLinks}>
-          <a href="/gallery" className={styles.button}>
-            View Our Memories
-          </a>
-          <a href="/journey" className={styles.button}>
+          <Link href="/memories" className={styles.button}>
+            View Memories
+          </Link>
+          <Link href="/journey" className={styles.button}>
             Explore Our Journey
-          </a>
+          </Link>
         </section>
 
         <BirthdayWishes />
-
-        <InteractiveCake />
       </main>
-
-      
     </div>
   );
 }
