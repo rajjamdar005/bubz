@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 // import Header from '../components/header';
 // import Footer from '../components/footer';
+import Image from 'next/image';
 import MemoryHighlights from './components/MemoryHighlights';
 import BirthdayWishes from './components/BirthdayWishes';
 import Link from 'next/link'; // Import Link from next/link
