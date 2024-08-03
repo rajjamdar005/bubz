@@ -5,7 +5,7 @@ import styles from './memories.module.css';
 
 const Page = () => {
   const images = [
-    '/images/mem1.jpg',
+    '/images/mem1.JPG',
     '/images/mem4.jpg',
     '/images/mem6.jpg',
     '/images/mem7.jpg',
