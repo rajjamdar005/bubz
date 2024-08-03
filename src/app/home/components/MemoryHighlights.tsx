@@ -1,5 +1,6 @@
 // app/home/components/MemoryHighlights.tsx
 import styles from '../Home.module.css';
+import Image from 'next/image';
 
 const memories = [
   {
