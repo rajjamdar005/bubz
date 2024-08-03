@@ -4,9 +4,9 @@ import styles from './phase1.module.css';
 
 const Page = () => {
   const images = [
-    '/images/beg1.jpg',
-    '/images/beg2.jpg',
-    '/images/beg3.jpg',
+    '/images/beg1.JPG',
+    '/images/beg2.JPG',
+    '/images/beg3.JPG',
     '/images/beg4.jpg'
   ];
 
