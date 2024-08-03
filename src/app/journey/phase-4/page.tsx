@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import styles from './phase4.module.css';
+import Image from 'next/image';
 
 const Page = () => {
   const images = [
