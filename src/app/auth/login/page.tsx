@@ -1,8 +1,8 @@
 "use client"; // Mark this as a client component
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation'; // Use next/navigation for routing
-import { login } from '../../lib/auth'; // Adjust the import path as necessary
+import { useRouter } from 'next/navigation';
+import { login } from '../../lib/auth'; // Ensure this path is correct
 import styles from './Login.module.css';
 
 export default function LoginPage() {
@@ -14,7 +14,7 @@ export default function LoginPage() {
     const isAuthenticated = await login(email);
     if (isAuthenticated) {
       // Redirect to the home page after successful login
-      router.push('/home'); // Redirect to the home page
+      router.push('/home');
     } else {
       alert('Access denied. Please enter the correct email.');
     }
@@ -24,7 +24,7 @@ export default function LoginPage() {
     <div className={styles.container}>
       <div className={styles.background}>
         <div className={styles.loginBox}>
-        <h1 className={styles.title}>🎉 Happy Birthday!🎉</h1>
+          <h1 className={styles.title}>🎉 Happy Birthday! 🎉</h1>
           <form onSubmit={handleLogin}>
             <input
               type="email"

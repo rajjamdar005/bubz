@@ -4,18 +4,17 @@ import styles from '../Home.module.css';
 const birthdayWishes = [
   {
     id: 1,
-    message: "Happy birthday, to my one and only daughter. Our Blessings are with you always.",
-
+    message: "Happy birthday, to my one and only daughter. Our Blessings are with you always.",
     author: "dad",
   },
   {
     id: 2,
-    message: "Happiest Birthday to one of the bear of the trio !🧸",
+    message: "Happiest Birthday to one of the bear of the trio! 🧸",
     author: "rommies",
   },
   {
     id: 3,
-    message: "Cheers to the another fabulous year of life!!!",
+    message: "Cheers to another fabulous year of life!!!",
     author: "shwaty🐣",
   },
   // Add more birthday wishes as needed
