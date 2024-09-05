@@ -1,7 +1,6 @@
 // components/Page.tsx
 
 import React from 'react';
-import Image from 'next/image';
 import styles from './memories.module.css';
 import Image from 'next/image';
 
@@ -24,7 +23,13 @@ const Page = () => {
       <div className={styles.grid}>
         {images.map((src, index) => (
           <div className={styles.item} key={index}>
-            <img src={src} alt={`Image ${index + 1}`} />
+            <Image 
+              src={src} 
+              alt={`Memory Image ${index + 1}`} 
+              width={300}  // Adjust the width according to your design
+              height={200} // Adjust the height according to your design
+              className={styles.image}
+            />
           </div>
         ))}
       </div>
