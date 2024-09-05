@@ -11,7 +11,11 @@ const Page = () => {
     '/images/trek4.jpg'
   ];
 
-  const commonDescription = <p>Even though our treks were challenging, they made us better together. We went on two hikes, both of which are memorable. Each trek had different people and unique stories. One was full of joy and fun, while the other was completely adventurous. However, what remained constant throughout both experiences was us.</p>
+  const commonDescription = (
+    <p>
+      Even though our treks were challenging, they made us better together. We went on two hikes, both of which are memorable. Each trek had different people and unique stories. One was full of joy and fun, while the other was completely adventurous. However, what remained constant throughout both experiences was us.
+    </p>
+  );
 
   return (
     <div className={styles.container}>
@@ -19,13 +23,19 @@ const Page = () => {
       <div className={styles.grid}>
         {images.map((src, index) => (
           <div className={styles.item} key={index}>
-            <img src={src} alt={`Image ${index + 1}`} />
+            <Image
+              src={src}
+              alt={`Image ${index + 1}`}
+              width={300}  // Adjust the width as needed
+              height={200} // Adjust the height as needed
+              className={styles.image}
+            />
           </div>
         ))}
       </div>
       <div className={styles.textContainer}>
         <h2 className={styles.title}>Trek</h2>
-        <p className={styles.description}>{commonDescription}</p>
+        <div className={styles.description}>{commonDescription}</div>
       </div>
     </div>
   );

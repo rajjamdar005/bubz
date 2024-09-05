@@ -11,7 +11,11 @@ const Page = () => {
     '/images/tea4.jpg'
   ];
 
-  const commonDescription = <p>"We made infinite memories at Tea Toast (cafe). Initially, you used to hate that cafe, but one day I just forced you to keep me company there, and suddenly you started loving it. Although we have spent more there, money means nothing compared to those memories.";</p>
+  const commonDescription = (
+    <p>
+      &quot;We made infinite memories at Tea Toast (cafe). Initially, you used to hate that cafe, but one day I just forced you to keep me company there, and suddenly you started loving it. Although we have spent more there, money means nothing compared to those memories.&quot;
+    </p>
+  );
 
   return (
     <div className={styles.container}>
@@ -19,13 +23,19 @@ const Page = () => {
       <div className={styles.grid}>
         {images.map((src, index) => (
           <div className={styles.item} key={index}>
-            <img src={src} alt={`Image ${index + 1}`} />
+            <Image
+              src={src}
+              alt={`Image ${index + 1}`}
+              width={300} // Adjust the width as needed
+              height={200} // Adjust the height as needed
+              className={styles.image}
+            />
           </div>
         ))}
       </div>
       <div className={styles.textContainer}>
         <h2 className={styles.title}>Tea-Toast</h2>
-        <p className={styles.description}>{commonDescription}</p>
+        <div className={styles.description}>{commonDescription}</div>
       </div>
     </div>
   );

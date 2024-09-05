@@ -23,7 +23,13 @@ const Page = () => {
       <div className={styles.grid}>
         {images.map((src, index) => (
           <div className={styles.item} key={index}>
-            <img src={src} alt={`Image ${index + 1}`} />
+            <Image 
+              src={src} 
+              alt={`Image ${index + 1}`} 
+              width={300} 
+              height={200} 
+              className={styles.image} // Optional if you have specific image styling
+            />
           </div>
         ))}
       </div>
