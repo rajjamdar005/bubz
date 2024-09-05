@@ -1,10 +1,11 @@
 "use client";
 import React from 'react';
 import styles from './phase2.module.css';
+import Image from 'next/image';
 
 const Page = () => {
   const images = [
-    '/images/walk1.jpg',
+    '/images/walk1.JPG',
     '/images/walk2.jpg',
     '/images/walk3.jpg',
     '/images/walk4.jpg'

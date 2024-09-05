@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './journey.module.css';
-
+import Image from 'next/image';
 interface JourneyPhase {
   title: string;
   description: string;

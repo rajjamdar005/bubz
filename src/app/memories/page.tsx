@@ -3,10 +3,11 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './memories.module.css';
+import Image from 'next/image';
 
 const Page = () => {
   const images = [
-    '/images/mem1.jpg',
+    '/images/mem1.JPG',
     '/images/mem4.jpg',
     '/images/mem6.jpg',
     '/images/mem7.jpg',

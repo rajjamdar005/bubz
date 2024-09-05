@@ -1,9 +1,13 @@
 // app/home/page.tsx
-import styles from './home.module.css';
+import styles from './Home.module.css';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+
 import Image from 'next/image'; // Import Image from next/image
 import Link from 'next/link'; // Import Link from next/link
+
+
+
 import MemoryHighlights from './components/MemoryHighlights';
 import BirthdayWishes from './components/BirthdayWishes';
 

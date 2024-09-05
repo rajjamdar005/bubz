@@ -2,15 +2,16 @@
 
 import React from 'react';
 import styles from './phase6.module.css';
+import Image from 'next/image';
 
 const Page = () => {
   const images = [
     '/images/us1.jpg',
-    '/images/walk1.jpg',
+    '/images/walk1.JPG',
     '/images/us3.jpg',
     '/images/walk3.jpg',
-    '/images/us6.jpg',
-    '/images/us7.jpg',
+    '/images/us6.JPG',
+    '/images/us7.JPG',
     '/images/us8.jpg',
     '/images/us9.jpg',
     '/images/us10.jpg',
