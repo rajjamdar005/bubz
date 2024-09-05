@@ -19,16 +19,17 @@ const Page = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.mainTitle}>Tea-toast</h1>
+      <h1 className={styles.mainTitle}>Tea-Toast</h1>
       <div className={styles.grid}>
         {images.map((src, index) => (
           <div className={styles.item} key={index}>
             <Image
               src={src}
-              alt={`Image ${index + 1}`}
-              width={300} // Adjust the width as needed
+              alt={`Memorable moment at Tea-Toast ${index + 1}`}
+              width={300}  // Adjust the width as needed
               height={200} // Adjust the height as needed
               className={styles.image}
+              loading="lazy" // Lazy loading for performance
             />
           </div>
         ))}

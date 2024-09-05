@@ -25,10 +25,11 @@ const Page = () => {
           <div className={styles.item} key={index}>
             <Image 
               src={src} 
-              alt={`Image ${index + 1}`} 
+              alt={`Memorable moment ${index + 1}`} // Improve alt text descriptions
               width={300} 
               height={200} 
-              className={styles.image} // Optional if you have specific image styling
+              className={styles.image} 
+              loading="lazy" // Lazy-load images for better performance
             />
           </div>
         ))}

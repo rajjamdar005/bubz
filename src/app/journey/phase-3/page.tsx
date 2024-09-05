@@ -13,7 +13,7 @@ const Page = () => {
 
   const commonDescription = (
     <p>
-      And then suddenly it started getting worse. Nothing was working, and that joy suddenly changed to sorrow. We went out on January 13, and then you made it clear that it wasn't going to work. My body was literally shivering; it started getting worse, and on my birthday, it finally ended. That was a gift I never received from anyone.
+      And then suddenly it started getting worse. Nothing was working, and that joy suddenly changed to sorrow. We went out on January 13, and then you made it clear that it wasn&apos;t going to work. My body was literally shivering; it started getting worse, and on my birthday, it finally ended. That was a gift I never received from anyone.
       But I am still happy to have gone from that worse situation to getting better together. This bond means a lot to me, thanks to Swati, who plays a very important role in holding us together. She is the thread that keeps us connected.
     </p>
   );
@@ -26,10 +26,11 @@ const Page = () => {
           <div className={styles.item} key={index}>
             <Image
               src={src}
-              alt={`Image ${index + 1}`}
+              alt={`Memorable moment ${index + 1}`}  // Improved alt text for better accessibility
               width={300}  // Adjust the width as needed
               height={200} // Adjust the height as needed
               className={styles.image}
+              loading="lazy" // Lazy loading for better performance
             />
           </div>
         ))}

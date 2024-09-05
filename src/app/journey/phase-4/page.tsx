@@ -25,10 +25,11 @@ const Page = () => {
           <div className={styles.item} key={index}>
             <Image
               src={src}
-              alt={`Image ${index + 1}`}
+              alt={`Memorable trek ${index + 1}`}
               width={300}  // Adjust the width as needed
               height={200} // Adjust the height as needed
               className={styles.image}
+              loading="lazy" // Lazy loading for better performance
             />
           </div>
         ))}

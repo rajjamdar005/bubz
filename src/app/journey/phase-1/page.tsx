@@ -31,6 +31,7 @@ const Page = () => {
               width={300} // Adjust the width as needed
               height={200} // Adjust the height as needed
               className={styles.image}
+              loading="lazy" // Optional performance enhancement
             />
           </div>
         ))}

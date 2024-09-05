@@ -13,8 +13,8 @@ const Page = () => {
 
   const commonDescription = (
     <p>
-      We started going for daily walks together. During these walks, we would sit on a bench, talk, and understand each other better. Afterward, we’d visit the local mart to get smoodh. We often found a spot near a vadapav stall to sit and chat for another hour while enjoying our drinks.
-      I never realized how much we became addicted to those walks. They were special moments that brought us closer, and I still miss those days. It’s amazing how a simple walk can create such lasting memories.
+      We started going for daily walks together. During these walks, we&apos;d sit on a bench, talk, and understand each other better. Afterward, we&apos;d visit the local mart to get smoodh. We often found a spot near a vadapav stall to sit and chat for another hour while enjoying our drinks.
+      I never realized how much we became addicted to those walks. They were special moments that brought us closer, and I still miss those days. It&apos;s amazing how a simple walk can create such lasting memories.
     </p>
   );
 
@@ -30,6 +30,7 @@ const Page = () => {
               width={300} // Adjust the width as needed
               height={200} // Adjust the height as needed
               className={styles.image}
+              loading="lazy" // Optional performance enhancement
             />
           </div>
         ))}
