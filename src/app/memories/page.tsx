@@ -1,6 +1,7 @@
 // components/Page.tsx
 
 import React from 'react';
+import Image from 'next/image';
 import styles from './memories.module.css';
 
 const Page = () => {

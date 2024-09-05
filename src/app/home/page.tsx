@@ -2,11 +2,10 @@
 import styles from './home.module.css';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-// import Header from '../components/header';
-// import Footer from '../components/footer';
+import Image from 'next/image'; // Import Image from next/image
+import Link from 'next/link'; // Import Link from next/link
 import MemoryHighlights from './components/MemoryHighlights';
 import BirthdayWishes from './components/BirthdayWishes';
-import Link from 'next/link'; // Import Link from next/link
 
 export default function HomePage() {
   return (
@@ -15,7 +14,7 @@ export default function HomePage() {
         <section className={styles.welcomeMessage}>
           <h1 className={styles.title}>Happy Birthday, duchki!</h1>
           <p className={styles.message}>
-            Welcome to your special day! Today is all about celebrating YOU and the wonderful memories we've created together.
+            Welcome to your special day! Today is all about celebrating YOU and the wonderful memories we&apos;ve created together.
           </p>
         </section>
 
